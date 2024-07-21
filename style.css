@@ -3,3 +3,63 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header text */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto; /* This centers the image */
+  height: 300px;
+  width: 400px;
+}
+
+/* Center navigation links and style them */
+nav {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey; /* Chosen background color */
+  text-decoration: none; /* Remove underline */
+  color: black; /* Text color */
+}
+
+/* Style the image caption */
+#details div p {
+  font-size: 10px; /* Adjust font size */
+  text-align: center; /* Center the caption text */
+}
+
+/* Center text block and give it a hard width */
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 500px;
+  margin: 20px auto; /* Centered with some vertical space */
+  font-size: 13px;
+}
+
+/* Make #details section horizontal */
+#details {
+  overflow: hidden; /* Clear floats */
+}
+#details div2 p2 {
+  font-size: 20px;
+}
+
+#details div1 p1 {
+  float: left; /* Float each div to the left */
+  width: 25%; /* Each div occupies 25% of the width */
+}
+
+/* Style the bottom divs */
+div {
+  background-color: rgb(230, 14, 14); /* Background color */
+  text-align: center; /* Center text */
+  width: 25%; /* Occupy 25% of the width */
+  float: left; /* Float left to achieve horizontal alignment */
+  margin: 2px 2 2; /* Add some margin for spacing */
+}
